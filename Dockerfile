@@ -1,4 +1,4 @@
-FROM gcr.io/jenkinsxio/jx-cli-base-image:0.0.46
+FROM gcr.io/jenkinsxio/jx-cli-base-image:0.0.48
 
 ARG VERSION="3.2.26"
 ARG TARGETARCH="amd64"
