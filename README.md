@@ -6,7 +6,7 @@ _The base image used for the [continuousengineeringproject/ce-cli](https://githu
 [![DepShield Badge](https://depshield.sonatype.org/badges/ContinuousEngineeringProject/ce-base-image/depshield.svg)](https://depshield.github.io)
 [![GitHub release](https://img.shields.io/github/v/release/ContinuousEngineeringProject/ce-base-image?include_prereleases)](https://github.com/ContinuousEngineeringProject/ce-base-image/releases/latest)
 [![Slack Status](https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=social)](https://continuousengproject.slack.com)
-
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ContinuousEngineeringProject_ce-base-image&metric=alert_status)](https://sonarcloud.io/dashboard?id=ContinuousEngineeringProject_ce-base-image)
 
 ## Overview
 The intention of this project is to provide an image with the necessary tools and packages that are required by both [continuousengineeringproject/ce-cli](https://github.com/continuousemgineeringproject/ce-cli) & [continuousengineeringproject/ce-api](https://github.com/continuousemgineeringproject/ce-api) projects. The ce-base-image image is built upon a [centos image](https://hub.docker.com/_/centos), we extend this base image and include the following tools and packages:
