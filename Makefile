@@ -17,10 +17,10 @@ publish.push:
 ifneq ($(VERSION),"")
 	docker tag ce-base-image continuousengineeringproject/ce-base-image:$(VERSION)
 	docker push continuousengineeringproject/ce-base-image:$(VERSION)
-else
+endif
 	docker tag ce-base-image continuousengineeringproject/ce-base-image:latest
 	docker push continuousengineeringproject/ce-base-image:latest
-endif
+
 
 
 hub.login:

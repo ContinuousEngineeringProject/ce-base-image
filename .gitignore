@@ -21,3 +21,6 @@ gen
 .terraform/
 *.tfstate
 *.tfstate*
+
+# Project files
+_ceprojectbot.txt

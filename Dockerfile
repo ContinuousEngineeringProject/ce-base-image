@@ -1,6 +1,6 @@
-FROM gcr.io/jenkinsxio/jx-cli-base-image:0.0.48
+FROM ghcr.io/jenkins-x/jx-cli-base-image:0.0.48
 
-ARG VERSION="3.2.26"
+ARG VERSION="3.2.188"
 ARG TARGETARCH="amd64"
 ARG TARGETOS="linux"
 
